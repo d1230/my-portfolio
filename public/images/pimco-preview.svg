@@ -1,0 +1,78 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#grad1)" stroke="#dee2e6" stroke-width="1"/>
+  
+  <!-- Chat interface container -->
+  <rect x="50" y="50" width="500" height="300" fill="white" rx="8" stroke="#dee2e6"/>
+  
+  <!-- Header -->
+  <rect x="70" y="70" width="460" height="45" fill="#f8f9fa" rx="4" stroke="#e9ecef"/>
+  <circle cx="90" cy="93" r="8" fill="#6c757d"/>
+  <text x="104" y="88" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#212529">PIMCO AI Assistant</text>
+  <text x="104" y="102" font-family="Arial, sans-serif" font-size="9" fill="#6c757d">Financial Data Analytics</text>
+  
+  <!-- Chat messages area -->
+  <rect x="70" y="125" width="460" height="170" fill="white"/>
+  
+  <!-- User message 1 -->
+  <rect x="320" y="135" width="200" height="35" fill="#495057" rx="18"/>
+  <text x="330" y="148" font-family="Arial, sans-serif" font-size="10" fill="white">What's the performance of</text>
+  <text x="330" y="161" font-family="Arial, sans-serif" font-size="10" fill="white">PIMCO Total Return Fund?</text>
+  
+  <!-- AI response 1 -->
+  <circle cx="90" cy="190" r="12" fill="#6c757d"/>
+  <text x="86" y="195" font-family="Arial, sans-serif" font-size="10" fill="white">AI</text>
+  <rect x="110" y="175" width="280" height="50" fill="#f8f9fa" rx="18" stroke="#e9ecef"/>
+  <text x="120" y="188" font-family="Arial, sans-serif" font-size="9" fill="#212529">PIMCO Total Return Fund (PTTRX) performance:</text>
+  <text x="120" y="200" font-family="Arial, sans-serif" font-size="9" fill="#495057">• YTD: +8.2% | 5-Year: +4.1% annualized</text>
+  <text x="120" y="212" font-family="Arial, sans-serif" font-size="9" fill="#495057">• AUM: $87.3B | Expense Ratio: 0.90%</text>
+  
+  <!-- User message 2 -->
+  <rect x="280" y="240" width="240" height="25" fill="#495057" rx="15"/>
+  <text x="290" y="255" font-family="Arial, sans-serif" font-size="10" fill="white">Compare with bond market index performance</text>
+  
+  <!-- AI response 2 (typing) -->
+  <circle cx="90" cy="275" r="12" fill="#6c757d"/>
+  <text x="86" y="280" font-family="Arial, sans-serif" font-size="10" fill="white">AI</text>
+  <rect x="110" y="265" width="120" height="20" fill="#f8f9fa" rx="10" stroke="#e9ecef"/>
+  <circle cx="125" cy="275" r="2" fill="#6c757d">
+    <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <circle cx="135" cy="275" r="2" fill="#6c757d">
+    <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="0.2s"/>
+  </circle>
+  <circle cx="145" cy="275" r="2" fill="#6c757d">
+    <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="0.4s"/>
+  </circle>
+  <text x="160" y="280" font-family="Arial, sans-serif" font-size="9" fill="#6c757d">Analyzing...</text>
+  
+  <!-- Input area -->
+  <rect x="70" y="305" width="460" height="35" fill="white" rx="18" stroke="#dee2e6"/>
+  <text x="90" y="325" font-family="Arial, sans-serif" font-size="11" fill="#6c757d">Ask about PIMCO funds, market data, analytics...</text>
+  
+  <!-- Send button -->
+  <circle cx="500" cy="322" r="12" fill="#495057"/>
+  <polygon points="495,322 505,318 505,326" fill="white"/>
+  
+  <!-- Side panel with quick actions -->
+  <rect x="450" y="70" width="80" height="45" fill="white" stroke="#e9ecef" rx="4"/>
+  <text x="460" y="85" font-family="Arial, sans-serif" font-size="8" fill="#6c757d">Quick Actions:</text>
+  <text x="460" y="95" font-family="Arial, sans-serif" font-size="7" fill="#495057">📊 Fund Analysis</text>
+  <text x="460" y="105" font-family="Arial, sans-serif" font-size="7" fill="#495057">📈 Market Data</text>
+  
+  <!-- Performance indicator -->
+  <circle cx="520" cy="90" r="15" fill="white" stroke="#dee2e6"/>
+  <text x="516" y="87" font-family="Arial, sans-serif" font-size="8" fill="#495057">AI</text>
+  <text x="512" y="97" font-family="Arial, sans-serif" font-size="6" fill="#6c757d">Powered</text>
+  
+  <!-- Real-time data indicator -->
+  <rect x="380" y="135" width="8" height="8" fill="#6c757d" rx="4"/>
+  <text x="395" y="142" font-family="Arial, sans-serif" font-size="7" fill="#6c757d">Live Data</text>
+</svg>

@@ -1,0 +1,93 @@
+.header {
+  background: linear-gradient(135deg, #6d6d6d 0%, #2d3748 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -1px;
+  color: white;
+}
+
+.role {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+  color: white;
+}
+
+.location {
+  font-size: 1.1rem;
+  margin: 0 0 1.5rem 0;
+  color: #cbd5e0;
+  opacity: 0.9;
+}
+
+.value-statement {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin: 0 0 2rem 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #cbd5e0;
+  opacity: 0.95;
+}
+
+.header-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-btn,
+.resume-btn {
+  padding: 0.75rem 2rem;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.contact-btn:hover,
+.resume-btn:hover {
+  background: white;
+  color: #2d3748;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .name {
+    font-size: 2.5rem;
+  }
+  
+  .role {
+    font-size: 1.4rem;
+  }
+  
+  .value-statement {
+    font-size: 1.1rem;
+  }
+  
+  .header {
+    padding: 3rem 1rem;
+  }
+}
