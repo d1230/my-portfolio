@@ -30,7 +30,7 @@ export const Header = (props: HeaderProps) => {
           <a href={`mailto:${email}`} className="contact-btn">
             Contact Me
           </a>
-          <a href={resumeUrl} target="_blank" rel="noopener noreferrer" className="resume-btn">
+          <a href={resumeUrl} download className="resume-btn">
             Download Resume
           </a>
         </div>

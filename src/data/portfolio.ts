@@ -9,7 +9,7 @@ export const portfolioData = {
     location: "Newport Beach, CA (PST)",
     valueStatement: "Accomplished UI Developer with over 12 years of professional experience specializing in frontend development using Angular and React.js, combined with strong backend development skills in Python and Node.js. Certified AWS Solutions Architect.",
     email: "kdong1851@gmail.com",
-    resumeUrl: "/resume.pdf"
+    resumeUrl: "/assets/KIMDH_Resume_2026.docx"
   },
 
   // Featured Projects (Top 3-5) - Based on your experience
