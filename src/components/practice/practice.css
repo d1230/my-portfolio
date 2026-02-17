@@ -1,0 +1,39 @@
+.practice {
+	padding:5px;
+}
+
+.practice-menu {
+	display: flex;
+	gap: 20px;
+	/* justify-content: center; */
+	/* flex-wrap: wrap; */
+}
+
+.tab {
+	/* appearance: none;
+	border: 1px solid #d6d6d6;
+	background: #f7f7f7;
+	color: #2a2a2a;
+	padding: 0.6rem 1.2rem;
+	border-radius: 999px;
+	font-weight: 600;
+	letter-spacing: 0.01em;
+	cursor: pointer;
+	transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease; */
+    border: 1px solid #d6d6d6;
+    background: #f7f7f7;
+    color: #2a2a2a;
+    padding: 0.6rem 1.2rem;
+    border-radius: 999px;
+}
+
+.tab:hover {
+	background: #ededed;
+	border-color: #bfbfbf;
+}
+
+.tab.active {
+	background: #0b5ed7;
+	border-color: #0b5ed7;
+	color: #ffffff;
+}

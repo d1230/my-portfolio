@@ -1,5 +1,7 @@
+import { Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
 import { Projects } from './components/Projects';
+import { Main } from './components/practice/main';
 import { Skills } from './components/Skills';
 import { Footer } from './components/Footer';
 import { portfolioData } from './data/portfolio';
@@ -8,7 +10,7 @@ import './App.css';
 function App() {
   const { personal, projects, skills, certifications, awards, social, openSource } = portfolioData;
 
-  return (
+  const Home = () => (
     <div className="app">
       <Header 
         name={personal.name}
@@ -32,6 +34,13 @@ function App() {
         openSource={openSource}
       />
     </div>
+  );
+
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/pro" element={<Main />} />
+    </Routes>
   );
 }
 
